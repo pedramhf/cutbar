@@ -1,0 +1,274 @@
+/*
+Theme Name: Pedro
+Text Domain: PedroCutBar
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Theme URI: https://wordpress.org/themes/pedrocutbar/
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+body {
+  font-family: "Playfair Display", Sans-serif;
+  background-color: #f6f6eb;
+}
+.my-header {
+  background-color: #f6f6eb;
+  padding: 0.5em 1em;
+}
+#mynavbar a {
+  font-family: "Playfair Display", Sans-serif;
+  text-decoration: none;
+  color: #222324;
+  padding: 1em 1.5em;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  transition: all 0.2s;
+}
+
+#mynavbar a:hover {
+  color: #bd9362;
+}
+#mynavbar ul li {
+  text-align: center;
+}
+.active {
+  color: #bd9362 !important;
+}
+.my-toggler {
+  color: #bd9362;
+  font-size: 1.8em;
+}
+.logo {
+  max-height: 3em;
+  max-width: 3em;
+}
+.welcome {
+  padding: 6em 1em 0;
+}
+.arrow {
+  position: fixed;
+  right: 0.5em;
+  bottom: 1em;
+  font-size: 2em;
+  color: #7a7a7a;
+}
+.carousel-caption {
+  margin-bottom: 0;
+}
+.carousel-caption h5 {
+  font-size: 3em;
+}
+.carousel-caption p {
+  font-size: 1em;
+}
+.item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.welcome-span {
+  color: #898989;
+  font-size: 1.2em;
+
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.welcome-h1 {
+  font-size: 3.5em;
+}
+.welcome-p {
+  color: #616161;
+  font-size: 1.2em;
+  padding: 1em 9em !important;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-family: "Vollkorn";
+  justify-content: center;
+}
+.gallery {
+  padding: 2em 6em;
+}
+.gallery img {
+  border-radius: 0.5em;
+  transition: all 0.5s ease-in-out;
+  max-width: 100%;
+}
+
+.photos-container :hover > img:hover {
+  transform: scale(1.03);
+}
+.services {
+  padding-top: 3em;
+  margin-bottom: 0em;
+}
+.services h3 {
+  color: #7a7a7a;
+  font-style: italic;
+}
+.service-photos {
+  padding: 3em 0;
+}
+.services .card {
+  background-color: #222324 !important;
+  border-radius: 0;
+}
+
+.services .card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 2em auto;
+  border-radius: 1em;
+}
+.services h5 {
+  color: #ffffff;
+  font-size: 1em;
+  font-style: italic;
+}
+.services p {
+  color: #bd9362;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0px;
+}
+.services .card-text {
+  padding-bottom: 6em !important;
+}
+.service-photos img {
+  width: 100%;
+}
+.service-photos {
+  display: flex;
+  padding: 0;
+}
+.service-photos p {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  margin-top: 2em;
+
+  color: #222324;
+}
+.contact-us {
+  padding: 0;
+
+  /* background-image: url(../images/img14.jpeg); */
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.contact-us .form-left {
+  padding: 2em;
+}
+.contact-us .form-right {
+  margin-top: 3em;
+}
+.contact-us .form-left input {
+  border: none;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.contact-us .form-left textarea {
+  font-style: italic;
+
+  border: none;
+  font-size: 0.8em;
+}
+.contact-us .form-left button {
+  border: solid 2px;
+
+  font-style: italic;
+  padding: 0.7em 1.5em;
+}
+.contact-us .form-left button:hover {
+  color: #ffffff;
+}
+.contact-us .form-left p {
+  color: #ffff;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 2.3em;
+  letter-spacing: 0px;
+  margin-bottom: 1em;
+}
+.contact-us .form-left h5 {
+  color: #ffffff;
+}
+.bussines-hours {
+  padding: 5em;
+}
+.location {
+  background-color: #212529;
+}
+.location-item {
+  padding: 2em;
+}
+.location-item iframe {
+  border-radius: 1em;
+}
+.location-item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location-item i {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+.location-item i:hover {
+  color: #bd9362;
+}
+#about {
+}
+
+.gallery-container {
+  position: relative;
+}
+.text-gallery {
+  position: absolute;
+  left: 1em;
+  top: 0.5em;
+  font-size: 3em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-p {
+    padding: 0 !important;
+    text-align: justify;
+  }
+  .gallery,
+  .services {
+    padding: 0;
+  }
+  .card-img-top {
+    margin: 1em auto !important;
+  }
+  .service-photos {
+    margin-left: 0.1em;
+    padding: 0;
+  }
+  .contact-us {
+    padding: 0 1em;
+  }
+  .contact-us .form-left {
+    padding: 0 0.5em;
+  }
+  .contact-us .form-left p {
+    font-size: 1.5em;
+  }
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+  }
+}
